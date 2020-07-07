@@ -1,10 +1,11 @@
 puts "what is the year"
-year = gets
+year = gets.chomp
 puts "what is the make of the car"
-car = gets 
+car = gets.chomp 
 puts "Vehicle you would want"
-like = gets
+like = gets.chomp
 puts "what is your finance"
-finance = gets
+finance = gets.chomp
 puts ""
 puts "You have said you have \n #{year} #{car} #{like} #{finance}"
+ 
