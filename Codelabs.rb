@@ -8,3 +8,4 @@ puts "what is your finance"
 finance = gets
 puts ""
 puts " #{year} #{car} #{like} #{finance}"
+puts "test"
