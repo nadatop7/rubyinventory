@@ -9,12 +9,15 @@ def add_commas(num_string)
     num_string.reverse.scan(/\d{3}|.+/).join(",").reverse 
 end
   
-
+def price(cash)
+    "$#{cash}"
+end
 year = question("year")
 brand = question("brand")
 make = question("make")
 mileage = add_commas(question("mileage"))
-puts "#{year} #{brand} #{make} #{mileage}"
+cash = add_commas(question("finance"))
+puts "#{year} #{brand} #{make} #{mileage} #{price(cash)}"
 
 
 #puts "what is the year"
