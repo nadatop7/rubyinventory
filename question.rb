@@ -18,5 +18,5 @@ class Question
           puts "What is the #{name}?"
           gets.chomp
       #puts "you put that you have #{input}" 
-              end
+        end
 end
