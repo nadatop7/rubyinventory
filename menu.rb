@@ -38,18 +38,23 @@ class Menu
         @inventory.add_car(form.car)
         
         when "2"
-            @inventory.sell
-        
+            
+            puts @inventory.sell
+            
+            
+            
+            
         when "3"
-        @inventory.show_inventory
+            @inventory.show_inventory
         prompt
         display
         when "4"
             exit
         end
+        puts ""
         display
     end
 end
 
 menu = Menu.new
-menu.choices
+menu.choices 

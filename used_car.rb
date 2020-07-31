@@ -1,5 +1,6 @@
 #require_relative 'display'
 require_relative 'question'
+require_relative 'menu'
 
 
 class Used_car
